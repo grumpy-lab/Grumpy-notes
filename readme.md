@@ -1,5 +1,5 @@
 # Grumpy Notes
 
 ### Table of Contents
-- [Ansible](./ansible)
-- [Ansible Cheat sheet](./cheatsheets/ansible)
+- [Ansible](./Ansible.md)
+- [Ansible Cheat sheet](./cheatsheets/Ansible.md)
