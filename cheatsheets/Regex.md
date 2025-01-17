@@ -2,16 +2,16 @@
 
 #links are not working becuse im dumb 
 ✽ [Anchors](#anchors)  
-✽ [Alternation and Grouping](#[alternation%20and%20grouping](https://github.com/grumpy-lab/Grumpy-notes/edit/main/cheatsheets/Regex.md#alternation-and-grouping)) 
-✽ [Escaping meta characters](#Escaping%20meta%20characters)  
-✽ [Dot meta character and Quantifiers](#dot%20meta%20character%20and%20quantifiers) 
-✽ [Character class](#character%20class)  
+✽ [Alternation and Grouping](#alternation-and-grouping)
+✽ [Escaping meta characters](#Escaping-meta-characters)  
+✽ [Dot meta character and Quantifiers](#dot-meta-character-and-quantifiers) 
+✽ [Character class](#character-class)  
 ✽ [Escape sequences](#escape-sequences)  
-✽ [Named character sets](#named%20character%20sets)  
+✽ [Named character sets](#named-character-sets)  
 ✽ [Backreferences](#backreferences)  
-✽ [sed flags](#sed%20flags)  
-✽ [sed case conversion](#sed%20case%20conversion)  
-✽ [sed delimiters](#sed%20delimiters)  
+✽ [sed flags](#sed-flags)  
+✽ [sed case conversion](#sed-case-conversion)  
+✽ [sed delimiters](#sed-delimiters)  
 
   
   
