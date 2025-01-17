@@ -1,10 +1,9 @@
 #cheatsheets
 
-#links are not working becuse im dumb 
 ✽ [Anchors](#anchors)  
-✽ [Alternation and Grouping](#alternation-and-grouping)
-✽ [Escaping meta characters](#Escaping-meta-characters)  
-✽ [Dot meta character and Quantifiers](#dot-meta-character-and-quantifiers) 
+✽ [Alternation and Grouping](#alternation-and-grouping)  
+✽ [Escaping meta characters](#escaping-meta-characters)  
+✽ [Dot meta character and Quantifiers](#dot-meta-character-and-quantifiers)  
 ✽ [Character class](#character-class)  
 ✽ [Escape sequences](#escape-sequences)  
 ✽ [Named character sets](#named-character-sets)  
