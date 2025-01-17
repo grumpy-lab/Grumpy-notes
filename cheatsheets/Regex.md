@@ -1,11 +1,12 @@
 #cheatsheets
-  
-✽ [Anchors](#Anchors)  
-✽ [Alternation and Grouping](#alternation%20and%20grouping) 
+
+#links are not working becuse im dumb 
+✽ [Anchors](#anchors)  
+✽ [Alternation and Grouping](#[alternation%20and%20grouping](https://github.com/grumpy-lab/Grumpy-notes/edit/main/cheatsheets/Regex.md#alternation-and-grouping)) 
 ✽ [Escaping meta characters](#Escaping%20meta%20characters)  
 ✽ [Dot meta character and Quantifiers](#dot%20meta%20character%20and%20quantifiers) 
 ✽ [Character class](#character%20class)  
-✽ [Escape sequences](#escape%20sequences)  
+✽ [Escape sequences](#escape-sequences)  
 ✽ [Named character sets](#named%20character%20sets)  
 ✽ [Backreferences](#backreferences)  
 ✽ [sed flags](#sed%20flags)  
