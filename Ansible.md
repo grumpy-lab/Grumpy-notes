@@ -20,13 +20,13 @@ Initial connection must be done between ansible server and the client. it is pos
 - localhost gather facts
 ````ansible localhost -m setup```
 - ping
-``` ansible all --key-file ~/.ssh/ansible -i invintory -m ping
+``` 
+ansible all --key-file ~/.ssh/ansible -i invintory -m ping
 ```
 - ansible.cfg
 ```
 [defaults]
-inventory = invintory
-##inventory is miss spelled to show it is the path
+inventory = inventory-path
 private_key_file = ~/.ssh/ansible
 ```
 - run with the new config
@@ -67,16 +67,19 @@ ansible-playbook -K install_apache.yml
 ```
 
 - list tags in a play book
-```ansible-playbook --list-tags site.ym
+```
+ansible-playbook --list-tags site.ym
 ```
 - to run a tag play
 - tags can be added to individual task/plays
-```ansible-playbook --tags centos --ask-become-pass site.yml
+```
+ansible-playbook --tags centos --ask-become-pass site.yml
 ```
 - when copying files the files directory is assumed
 	- remote_src: yes is needed when not using the files dir 
 - when registering a variable to a change state ansible takes the most resent variable setting
-	```play 1=change register: test 
+	```
+	play 1=change register: test 
 	 play 2=no change register: test
 	echo $test = no change
 	```
