@@ -1,3 +1,6 @@
+
+- ansible tower makes ansible turn into puppet but better
+
 https://www.youtube.com/watch?v=3RiVKs8GHYQ&list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70&index=1
 
 Initial connection must be done between ansible server and the client. it is possible to configure ansible to accept the ssh prompt from the first connection
@@ -5,7 +8,7 @@ Initial connection must be done between ansible server and the client. it is pos
 
 ## making ssh key pair
 - ls -la .ssh
-- ssh-keygen -t ed25519 -C "jack default"
+- ssh-keygen -t ed25519 -C "username default"
 	- more secure than default and shorter key length
 - ssh-copy-id -i .ssh/id_ed25519.pub ws1
 - make a key for "ansible"
