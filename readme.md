@@ -2,6 +2,9 @@
 
 ### Table of Contents
 - [Ansible](./Ansible.md)
+
+##### Cheat sheets
+
 - [Ansible Cheat sheet](./cheatsheets/Ansible.md)
 - [Ansible Cheat sheet](./cheatsheets/Ansible.md ) 
 - [Docker-Compose Cheat sheet](./cheatsheets/Docker-Compose.md)  
