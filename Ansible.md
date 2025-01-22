@@ -89,22 +89,20 @@ ansible-playbook --tags centos --ask-become-pass site.yml
 - alternately notify can be used to call up a new play book this play book wold be under the handlers dir for the role the play is happening on
 - roles must be set in roles/rolename/tasks/main.yml
 - templats must be in .j2 format
-- Absolutely, here are 16 more Ansible interview 
-   - `include` tasks and roles are dynamic, meaning they are processed during execution.
-   - `import` tasks and roles are static, meaning they are processed during playbook parsing.
+- `include` tasks and roles are dynamic, meaning they are processed during execution.
+- `import` tasks and roles are static, meaning they are processed during playbook parsing.
 
-   - **Roles**: Reusable units of Ansible content, such as tasks, files, templates, and variables.
-   - **Collections**: A distribution format for Ansible content that may include roles, modules, and plugins.
+- **Roles**: Reusable units of Ansible content, such as tasks, files, templates, and variables.
+- **Collections**: A distribution format for Ansible content that may include roles, modules, and plugins.
 
-   - `state: present`: Ensures the package is installed.
-   - `state: latest`: Ensures the package is installed and updated to the latest version.
+- `state: present`: Ensures the package is installed.
+- `state: latest`: Ensures the package is installed and updated to the latest version.
 
-  - Use the `ignore_errors` parameter or the `block/rescue` statements to handle errors and perform actions when tasks fail.
+- Use the `ignore_errors` parameter or the `block/rescue` statements to handle errors and perform actions when tasks fail.
 
 - The `register` keyword is used to store the output of a task in a variable, which can then be used in subsequent tasks.
 
-  - Use the `--start-at-task` command-line option to begin execution at a specific task.
-
-9. 
+- Use the `--start-at-task` command-line option to begin execution at a specific task.
+ 
 - use the `loop` keyword to iterate over a list of items within a task.
 
