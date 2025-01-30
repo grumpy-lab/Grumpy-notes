@@ -446,6 +446,55 @@ ansible-playbook -i hosts.ini <playbook-yml-file> --list-hosts
 # Show tasks information.
 ansible-playbook -i hosts.ini <playbook-yml-file> --list-tasks
 
+
+## common file paths
+
+| **File Path**                           | **Description**                                          |
+|-----------------------------------------|----------------------------------------------------------|
+| `/etc/ansible/hosts`                    | Default inventory file, lists all hosts Ansible manages  |
+| `/etc/ansible/ansible.cfg`              | Primary configuration file for customizing Ansible settings|
+| Project-specific directories            | Storage location for playbooks (e.g., `/etc/ansible/playbooks/` or project root)|
+| `/etc/ansible/roles/`                   | Default roles directory or `roles` subdirectory in playbook directory|
+| `/usr/share/ansible/plugins/modules/`   | Location for custom modules                              |
+| `/etc/ansible/group_vars/` or `host_vars/` | Variable files storage locations                       |
+| `/usr/share/ansible/plugins/`           | Directory for custom plugins, or specific plugin-type directories in project directory|
+| `/etc/ansible/facts.d/`                 | Directory for custom fact modules                        |
+| `/etc/ansible/roles/requirements.yml`   | Requirements file for specifying role dependencies       |
+| `/etc/ansible/collections/`             | Directory for Ansible collections, which are distributions of roles, modules, and plugins |
+| `/usr/share/ansible/roles/`             | Another location where roles might be installed          |
+| `~/.ansible.cfg`                        | User-specific configuration file that overrides the global configuration |
+| `~/.ansible/tmp/`                       | Temporary directory for storing temporary files          |
+| `/etc/ansible/templates/`               | Directory for storing Jinja2 templates                    |
+| `/etc/ansible/files/`                   | Directory for storing files used by playbooks            |
+| `/etc/ansible/vault/`                   | Directory for storing Ansible Vault files (encrypted files) |
+| `/etc/ansible/modules/`                 | Directory for storing custom Ansible modules             |
+| `/etc/ansible/plugins/filter/`          | Directory for custom filter plugins                      |
+| `/etc/ansible/lookup_plugins/`          | Directory for custom lookup plugins                      |
+| `/etc/ansible/callback_plugins/`        | Directory for custom callback plugins                    |
+| `/etc/ansible/connection_plugins/`      | Directory for custom connection plugins                  |
+| `/etc/ansible/action_plugins/`          | Directory for custom action plugins                      |
+| `/etc/ansible/library/`                 | Another directory for storing custom modules             |
+| `/etc/ansible/roles/`                   | Default roles directory (repeated for completeness)      |
+| `/etc/ansible/inventory/`               | Directory for additional inventory files                 |
+| `~/.ansible/collections/`               | User-specific directory for Ansible collections          |
+| `/etc/ansible/tasks/`                   | Directory for storing task files                         |
+| `/etc/ansible/handlers/`                | Directory for storing handler files                      |
+| `/etc/ansible/filter_plugins/`          | Another directory for custom filter plugins              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Perform playbook syntax check.
 ansible-playbook --syntax-check <playbook-yml-file>
 ```
